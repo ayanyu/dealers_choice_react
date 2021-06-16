@@ -1,0 +1,14 @@
+body {
+    padding: 3rem;
+    background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .selected a {
+    color: white;
+  }
+
+  .selected {
+    background-color: blue;
+  }
+  
