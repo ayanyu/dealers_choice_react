@@ -44,7 +44,7 @@ app.delete("/children/:id", async (req, res, next) => {
 
 app.post("/", async (req, res, next) => {
   try {
-    const add = await User.create({ name: req.body.name });
+    const add = await Child.create({ name: req.body.name });
     res.status(201).send(add);
   } catch (err) {
     res.sendStatus(409);
